@@ -8,6 +8,8 @@ Easily converts a `String` into an `Array` of `Numbers`
 
 #### Simple Examples
 
-	"abc12e3.def.456.)(*.7e89.23 t4tataet34.43awe.23456".toIntArray() // = [1, 2, 3, 4, 5, 6, 7, 8, 9, 2, 3, 4, 3, 4, 4, 3, 2, 3, 4, 5, 6]
-	"abc12e3.def.456.)(*.7e89.23 t4tataet34.43awe.23456".toIntArray('e') // =  [12, 3, 4567, 89234, 3443, 23456]
-	"abc12e3.def.456.)(*.7e89.23 t4tataet34.43awe.23456".toIntArray('e', true) // = [12, 3, 0.4567, 89.234, 34.43, 0.23456]
+```jss
+"abc12e3.def.456.)(*.7e89.23 t4tataet34.43awe.23456".toIntArray() // = [1, 2, 3, 4, 5, 6, 7, 8, 9, 2, 3, 4, 3, 4, 4, 3, 2, 3, 4, 5, 6]
+"abc12e3.def.456.)(*.7e89.23 t4tataet34.43awe.23456".toIntArray('e') // =  [12, 3, 4567, 89234, 3443, 23456]
+"abc12e3.def.456.)(*.7e89.23 t4tataet34.43awe.23456".toIntArray('e', true) // = [12, 3, 0.4567, 89.234, 34.43, 0.23456]
+```
